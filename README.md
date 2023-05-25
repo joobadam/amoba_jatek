@@ -1,4 +1,5 @@
 # amoba_jatek
+
 Választott technológiám a React.js.
 
 Erőteljes és rugalmas keretrendszer, amely lehetőséget nyújt a kreativitásra és az alkalmazások testreszabására.
@@ -12,3 +13,7 @@ A login és a settings felületen a tovább gomb csak akkor válik kattinthatóv
 Login felület:
 Felhasználónév: moso.peter@hmei.hu
 Jelszó: frontend
+
+A repository klónozása után a terminálba csak egy npm-install parancsot kell kiadni majd npm start és már fut is a projekt
+
+https://demo-amoba-jatek.netlify.app/
