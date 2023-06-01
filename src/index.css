@@ -1,13 +1,51 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter';
+ 
+}
+  
+*{
+  margin: 0;
+  overflow: hidden;
+}  
+
+.blue_gradient {
+  @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.pink_gradient {
+  @apply bg-gradient-to-r from-pink-500  to-blue-500 bg-clip-text text-transparent;
+}
+
+.btn{
+  background: rgb(131,58,180);
+  background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(68,102,226,1) 84%);
+  background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(68,102,226,1) 84%);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(68,102,226,1) 84%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#4466e2",GradientType=1);
+}
+
+
+.container{
+  background-image: url("./assets/mesh-gradient.png");
+  background-repeat: no-repeat;
+}
+
+
+.glass{
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(180, 180, 180, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.9px);
+-webkit-backdrop-filter: blur(13.9px);
+border: 1px solid rgba(180, 180, 180, 0.16);
 }
