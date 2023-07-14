@@ -11,7 +11,7 @@ Kisebb animációkat Framer Motion használatával oldottam meg.
 
 A login és a settings felületen a tovább gomb csak akkor válik kattinthatóvá ha az összes input ki van töltve.
 Login felület:
-Felhasználónév: moso.peter@hmei.hu
+Felhasználónév: vendeg@gmail.com
 Jelszó: frontend
 
 A repository klónozása után a terminálba csak egy npm-install parancsot kell kiadni majd npm start és már fut is a projekt
