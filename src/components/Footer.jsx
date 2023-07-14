@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
           <div className="w-full md:w-1/2 text-center md:text-end ">
             <h3 className="text-xs uppercase">
-              HM EI Zrt. Frontend fejlesztői pozíció
+            project work
             </h3>
           </div>
         </div>

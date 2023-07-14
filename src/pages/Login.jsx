@@ -9,7 +9,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
 
   useEffect(() => {
-    if (email === "moso.peter@hmei.hu" && password === "frontend") {
+    if (email === "vendeg@gmail.com" && password === "frontend") {
       setLoginButton(true);
     } else {
       setLoginButton(false);
@@ -38,7 +38,7 @@ const Login = () => {
               name=""
               id="email"
               className="w-full h-8 border rounded-md px-2 focus:outline-none text-sm"
-              placeholder="moso.peter@hmei.hu"
+              placeholder="vendeg@gmail.com"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
