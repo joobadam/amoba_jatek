@@ -57,7 +57,7 @@ const Settings = ({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="h-1/4 w-4/5 md:w-1/3 pt-5 shadow-lg rounded-lg pl-5 glass -mt-20"
+          className="h-1/4 w-4/5 md:w-1/3 pt-5 shadow-lg rounded-lg pl-5 glass -mt-20 "
         >
           <div>
             <label
@@ -72,9 +72,9 @@ const Settings = ({
               className="bg-transparent focus:outline-none  border-b-2 border-b-black/20 text-sm px-2 ml-2"
             />
           </div>
-          <div className="my-5 font-bold ">
+          <div className="my-2 font-bold ">
             <label htmlFor="firsPlayerIcon">Jele</label>
-            <div id="firsPlayerIcon" className="flex gap-x-5 ml-2 text-sky-400">
+            <div id="firsPlayerIcon" className="flex gap-x-5 ml-2 text-sky-400 ">
               <div
                 className={`h-10 w-10 flex justify-center items-center rounded-lg ${
                   firstPlayerIcon?.props.values === "cross"
@@ -139,7 +139,7 @@ const Settings = ({
               className="bg-transparent focus:outline-none  border-b-2 border-b-black/20 text-sm px-2 ml-2"
             />
           </div>
-          <div className="my-5 font-bold ">
+          <div className="my-2 font-bold ">
             <label htmlFor="secondPlayerIcon">Jele</label>
             <div id="secondPlayerIcon" className="flex gap-x-5 ml-2 text-yellow-400">
               <div

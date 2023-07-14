@@ -23,9 +23,9 @@ const Login = () => {
           initial={{ y: "-100vw" }}
           animate={{ y: 0 }}
           transition={{ delay: 0.5 }}
-          className="h-2/3 w-96 xl:w-2/6 flex justify-center items-center flex-col shadow-2xl rounded-lg z-50 glass"
+          className="h-2/3 w-96 xl:w-2/6 flex justify-center items-center flex-col shadow-2xl rounded-lg z-50 glass p-10"
         >
-          <div className="h-20 w-20 -mt-20">
+          <div className="h-20 w-20 -mt-14">
             <img src={icon} alt="icon" />
           </div>
           <div className="uppercase font-bold text-xl mb-10 drop-shadow-2xl pink_gradient">
